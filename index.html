@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>▷ CINECALIDAD OFICIAL ⚜️ Ver o descargar Peliculas HD</title>
+    <style type="text/css">
+        body{
+            padding:0;
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+        }
+
+        #section_logo{
+            display: flex;
+            justify-content: center;
+            margin-top: 8px;
+            
+        }
+
+        #logo{
+            position: relative;
+            left: 50px;
+        }
+
+        #cine_España{
+            text-decoration: none;
+            color: #059669;
+            font-size: 14px;
+            font-weight: 700;
+            position: relative;
+            left: 350px;
+            bottom: 5px;
+        }
+
+        #block-menu-list{
+            width: 1048px;
+            height: 35px;
+            margin: 0 auto;
+            
+            
+        }
+
+        #menu-list{
+            padding: 0;
+            
+            
+        }
+
+        .menu-list-generes{
+            list-style: none;
+            padding: 0 8px;
+            padding-top: 4px;
+            padding-bottom: 6px;
+            margin: 0 4px;
+            background-color: #111827;
+            border-radius: 7px;
+            float:left;
+            
+            
+        }
+
+        input{
+            margin-left:15px;
+            border-radius: 5px;
+            border-color:rgb(219, 217, 217);
+            padding: 7px 57px 7px 10px;
+        }
+
+        .link-list-generes{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+
+        .menu-list-generes:hover{
+            background-color: #374151;
+        }
+
+        #box-grid{
+            display: grid;
+            grid-template-columns: 25.5% 25.5% 24.5% 20%;
+            grid-template-rows: 390px 390px 390px 390px 390px;
+            width: 1050px;
+            margin: 0 auto;
+            
+        }
+        
+        .grid-movie{   
+            margin: 10px 20px 10px 4px;
+            background-color: #000;
+            height: 375px;
+            width: 250px;
+            
+        }
+
+        article img{
+           
+            width: 253px;
+            position: absolute;
+        }
+
+        article img:hover{
+            display: none;
+        }
+
+        .article-text{
+            width:230px;
+            position: absolute;
+            margin-left: 10px;
+            
+        }
+
+        .article-text h2{
+            color: #FFF;
+            font-size: 17px;
+            
+        }
+
+        .article-text p{
+            color: #B2B2B2;
+            opacity: .7;
+            font-size: 14px;
+            position:relative;
+            bottom: 10px;
+        }
+
+        .mini-generes{
+            position:absolute;
+            width: 220px;
+            transform: translate(0, 306px);
+            margin-left: 10px; 
+        }
+
+        .mini-generes a{
+            text-decoration: none;
+            color: #B2B2B2;
+            font-size: 12px;
+        }
+
+        .mini-generes-2{
+            transform: translate(0, 328px);
+        }
+
+        aside{
+            grid-column-start: 4;
+            grid-row-start: 1;
+            grid-row-end: 5;
+            margin-left: 20px;
+            margin-top: 35px;
+            width: 240px;
+        }
+
+        #box-linkTelegram{
+            margin-bottom: 40px;
+        }
+
+        #linkTelegram{
+            text-decoration: underline;
+            color: #059669;
+            font-weight: 500;
+            position: relative;
+            bottom: 8px;
+            left: 5px;
+        }
+
+        .box-black-about{
+            
+            color: #FFF;
+            background-color: #000;
+            padding: 5px 45px 5px 5px;
+            font-weight: 700;
+            border-radius: 3px;
+            margin-top: 20px;
+            font-size:17px;
+        }
+
+        #text-about{
+            color: #374151;
+            margin-top: 8px;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+
+        #text-dominio{
+            color: #374151;
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .li-dominio{
+            margin-bottom: 10px;
+            
+        }
+
+        .list-dominio{
+            color: #059669;
+            text-decoration: underline;
+            font-weight: 500;
+   
+        }
+
+        .lista-grid{
+            display: grid;
+            grid-template-columns: 34% 34% 25%;
+            grid-template-rows: 35% 35% 35%;
+            padding-left: 0;
+            
+        }
+
+        .li-miniArticulo{
+            margin-right: 20px;
+            list-style: none;
+        }
+
+        .box-more{
+            background-color: #009e8a;
+            color: #FFF;
+            text-align: center;
+            padding: 3px 0;
+            font-size: 14px;
+            display: block;
+            text-decoration: none;
+            border-radius: 3px;
+            
+        }
+
+        .box-more:hover{
+            background-color: #059669;
+            transition: all 0.5s ease;
+        }
+
+        #box-link-pages{
+            width: 790px;
+            margin: 0 auto;
+            transform: translate(-128px);
+            text-align: center;
+        }
+
+        #a-next{
+            display: block;
+            background-color: #111827;  
+            color: #FFF;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 5px 0;
+            font-size: 14px;
+        }
+
+        #a-next:hover{
+            background-color:#009e8a;
+        }
+
+        .link-pages{
+            color: #059669;
+            display: inline-block;
+            border: 2px solid #FFF1FF;
+            padding: 3px 7px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-right: 4px;
+            
+        }
+
+        .link-pages:hover{
+            border: 2px solid #009e8a;
+        }
+
+        .span-id{
+            border: 2px solid #FFF1FF;
+            color: #059669;
+            padding: 3px 7px;
+            margin-right: 4px;
+        }
+
+        .span-id-actual{
+            color: #000;
+            border: 2px solid #009e8a;
+            border-radius: 4px;
+            font-weight: bold;
+            
+
+        }
+
+        hr{
+            margin-top: 18px;
+            color: #B2B2B2
+        }
+
+        footer{
+            width:900px;
+            margin: 0 auto;
+            padding-top: 5px;
+            padding-bottom: 20px;
+            
+        }
+
+        #title-footer{
+            width:400px;
+            margin: 0 auto;
+            font-size:14px;
+            color: #4B5563;
+            font-weight: normal;
+            
+        }
+
+        #p-footer{
+            margin-top: 0;
+            font-size:14px;
+            color: #4B5563;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="section_logo">
+        <a href="#"><img id="logo" src="imagenes/logo-cine-calidad.PNG"></a>
+        <p><a id="cine_España" href="#">Ir a Cinecalidad España</a></p>
+    </div>
+    
+    
+
+    <div id="block-menu-list">
+        <ul id="menu-list">
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">4K</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Estrenos</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Series</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Anime</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Acción</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Aventura</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Animación</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Ciencia ficción</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Terror</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Comedia</li></a>
+            <li class="menu-list-generes"><a href="#" class="link-list-generes">Familia</li></a>
+            <form>
+                <input type="text" placeholder="Search...">
+            </form>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="box-grid">
+            <article class="grid-movie">  
+                <div class="article-text">
+                    <h2 class="font-bold">Eternals</h2>
+                    <p class="text-sm"> 
+                        Los Eternals son una raza inmortal 
+                        de héroes de elite que han vivido en secreto en la Tierra durante años 
+                        para proteger y formar a las civilizaciones. 
+                        Una tragedia inesperada los obliga a salir de... </p> 
+                </div>
+
+                <p class="mini-generes"> 
+                    <a aria-label="4K" href="https://www.cinecalidad.lat/genero/4k/">4K /</a> 
+                    <a aria-label="Acción" href="https://www.cinecalidad.lat/genero/accion/">Acción /</a>
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Ciencia ficción" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Ciencia ficción /</a> 
+                    <a aria-label="Fantasía" href="https://www.cinecalidad.lat/genero/fantasia/">Fantasía</a> 
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-1.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+                <div class="article-text">
+                    <h2 class="font-bold">Mundos paralelos</h2>
+                    <p class="text-sm"> 
+                        Shin se ha encerrado en sí mismo desde la muerte de su madre 
+                        y su amiga Kotori a estado a su lado desde entonces. 
+                        Ahora que por fin están saliendo adelante, aparece otro Shin de... 
+                    </p> 
+                </div>
+
+                <p class="mini-generes"> 
+                    <a aria-label="4K" href="https://www.cinecalidad.lat/genero/4k/">Animación /</a> 
+                    <a aria-label="Acción" href="https://www.cinecalidad.lat/genero/accion/">Acción /</a>
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Drama /</a> 
+                    <a aria-label="Ciencia ficción" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Ciencia ficción /</a> 
+                    <a aria-label="Fantasía" href="https://www.cinecalidad.lat/genero/fantasia/">Fantasía /</a> 
+                    <a aria-label="Fantasía" href="https://www.cinecalidad.lat/genero/fantasia/">Romance</a> 
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-2.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">Iron Man 3</h2>
+                    <p class="text-sm"> El descarado y brillante empresario Tony Stark/Iron Man 
+                        se enfrentará a un enemigo cuyo poder no conoce límites. 
+                        Cuando Stark comprende que su enemigo ha destruido su universo personal, 
+                        se embarca en una angustiosa búsqueda... 
+                    </p> 
+                </div>
+                
+
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Acción" href="https://www.cinecalidad.lat/genero/accion/">Acción /</a>
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Ciencia ficción" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Ciencia ficción</a> 
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-3.PNG">
+                </a>
+            </article>
+
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">La Muerte De Superman – Parte 2: El Reinado De Los Superhombres</h2>
+                    <p class="text-sm"> Superman ha muerto y el mundo entero está de luto… 
+                        ¡pero Metropolis sigue necesitando a un defensor! 
+                        ¿Quién será el sustituto del kryptoniano? 
+                        ¿Superboy, el Hombre de Acero, o tal vez Superman Cíborg? Mientras tanto,... 
+                    </p> 
+                </div>
+
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Acción" href="https://www.cinecalidad.lat/genero/accion/">Acción /</a>
+                    <a aria-label="Animación" href="https://www.cinecalidad.lat/genero/aventura/">Animación /</a> 
+                    <a aria-label="Ciencia ficción" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Ciencia ficción</a> 
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-4.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie"> 
+                
+                <div class="article-text">
+                    <h2 class="font-bold">Ghostland: Tierra sin ley</h2>
+                    <p class="text-sm opacity-70"> En la traicionera frontera de la ciudad de 
+                        Samurai Town, un ladrón de bancos sin escrúpulos (Nicolas Cage)
+                        es liberado de la cárcel por un pudiente señor de la guerra conocido 
+                        como The Governor (Bill... 
+                    </p> 
+                </div>
+
+
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Acción" href="https://www.cinecalidad.lat/genero/accion/">Acción /</a>
+                    <a aria-label="Suspenso" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Suspenso</a> 
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-5.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">Toy Story: El Tiempo Perdido</h2>
+                    <p class="text-sm"> En un plan posnavideño, la pandilla de Toy Story 
+                        se encuentra en territorio desconocido, donde los muñecos de acción 
+                        ás chulos del mundo resultan ser peligrosamente delirantes. 
+                        Todo depende de Trixie si la pandilla espera... 
+                    </p> 
+                </div>
+                
+                <p class="mini-generes"> 
+                    <a aria-label="Animación" href="https://www.cinecalidad.lat/genero/accion/">Animación /</a>
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Comedia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Comedia /</a> 
+                    <a aria-label="Familia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Familia /</a>
+                    <a aria-label="Fantasía" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Fantasía /</a>  
+                    <a aria-label="TV" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Película de TV</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-6.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">El libro de Boba Fett</h2>
+                    <p class="text-sm opacity-70"> El legendario cazarrecompensas Boba Fett y 
+                        la mercenaria Fennec Shand deben navegar por el inframundo de la galaxia 
+                        cuando regresen a las arenas de Tatooine para reclamar 
+                        el territorio que una vez gobernó Jabba el... 
+                    </p> 
+                </div>
+                
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Accion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Acción /</a>  
+                    <a aria-label="Ciencia ficcion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Ciencia ficción</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-7.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">Los Increíbles 2</h2>
+                    <p class="text-sm"> Helen tiene que liderar una campaña para que 
+                        los superhéroes regresen, mientras Bob vive su vida ‘normal’ 
+                        con Violet, Dash y el bebé Jack-Jack —cuyos superpoderes 
+                        descubriremos—. Su misión se va a pique cuando aparece... 
+                    </p> 
+                </div>
+                
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Accion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Acción /</a>  
+                    <a aria-label="Animacion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Animación /</a> 
+                    <a aria-label="Familia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Familia</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-8.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">Pokémon ¡Te elijo a ti!</h2>
+                    <p class="text-sm"> Película número 20 de la saga animada, 
+                        dirigida por Kuhiniko, que vuelve a los orígenes 
+                        del universo Pokémon, donde Ash Ketchum, un niño de diez años y 
+                        su inseparable amigo Pikachu irán en busca de... 
+                    </p> 
+                </div>
+
+                
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Animacion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Acción /</a>  
+                    <a aria-label="Familia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Familia /</a> 
+                    <a aria-label="Fantasia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Fantasia</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-9.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">Resident Evil</h2>
+                    <p class="text-sm"> Película número 20 de la saga animada, 
+                        dirigida por Kuhiniko, que vuelve a los orígenes 
+                        del universo Pokémon, donde Ash Ketchum, un niño de diez años y 
+                        su inseparable amigo Pikachu irán en busca de... 
+                    </p> 
+                </div>
+
+                
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Animacion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Acción /</a>  
+                    <a aria-label="Familia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Familia /</a> 
+                    <a aria-label="Fantasia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Fantasia</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-12.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">No Game No Life</h2>
+                    <p class="text-sm"> Película número 20 de la saga animada, 
+                        dirigida por Kuhiniko, que vuelve a los orígenes 
+                        del universo Pokémon, donde Ash Ketchum, un niño de diez años y 
+                        su inseparable amigo Pikachu irán en busca de... 
+                    </p> 
+                </div>
+
+                
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Animacion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Acción /</a>  
+                    <a aria-label="Familia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Familia /</a> 
+                    <a aria-label="Fantasia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Fantasia</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-11.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">Mazinger Z</h2>
+                    <p class="text-sm"> Película número 20 de la saga animada, 
+                        dirigida por Kuhiniko, que vuelve a los orígenes 
+                        del universo Pokémon, donde Ash Ketchum, un niño de diez años y 
+                        su inseparable amigo Pikachu irán en busca de... 
+                    </p> 
+                </div>
+
+                
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Animacion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Acción /</a>  
+                    <a aria-label="Familia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Familia /</a> 
+                    <a aria-label="Fantasia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Fantasia</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-10.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">Extinción</h2>
+                    <p class="text-sm"> Película número 20 de la saga animada, 
+                        dirigida por Kuhiniko, que vuelve a los orígenes 
+                        del universo Pokémon, donde Ash Ketchum, un niño de diez años y 
+                        su inseparable amigo Pikachu irán en busca de... 
+                    </p> 
+                </div>
+
+                
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Animacion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Acción /</a>  
+                    <a aria-label="Familia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Familia /</a> 
+                    <a aria-label="Fantasia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Fantasia</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-13.PNG">
+                </a>
+            </article>
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">Maligno</h2>
+                    <p class="text-sm"> Película número 20 de la saga animada, 
+                        dirigida por Kuhiniko, que vuelve a los orígenes 
+                        del universo Pokémon, donde Ash Ketchum, un niño de diez años y 
+                        su inseparable amigo Pikachu irán en busca de... 
+                    </p> 
+                </div>
+
+                
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Animacion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Acción /</a>  
+                    <a aria-label="Familia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Familia /</a> 
+                    <a aria-label="Fantasia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Fantasia</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-14.PNG">
+                </a>
+            </article>
+
+            <article class="grid-movie">  
+
+                <div class="article-text">
+                    <h2 class="font-bold">Titán muralí</h2>
+                    <p class="text-sm"> Película número 20 de la saga animada, 
+                        dirigida por Kuhiniko, que vuelve a los orígenes 
+                        del universo Pokémon, donde Ash Ketchum, un niño de diez años y 
+                        su inseparable amigo Pikachu irán en busca de... 
+                    </p> 
+                </div>
+
+                
+                <p class="mini-generes mini-generes-2"> 
+                    <a aria-label="Aventura" href="https://www.cinecalidad.lat/genero/aventura/">Aventura /</a> 
+                    <a aria-label="Animacion" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Acción /</a>  
+                    <a aria-label="Familia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Familia /</a> 
+                    <a aria-label="Fantasia" href="https://www.cinecalidad.lat/genero/ciencia-ficcion/">Fantasia</a>  
+                </p>
+
+                <a href="#">
+                    <img src="imagenes/pel-15.PNG">
+                </a>
+            </article>
+            
+            <aside>
+                <div id="box-linkTelegram">
+                    <img src="icon-telegram.PNG"><a href="#" id="linkTelegram">Pedir película</a>
+                </div>
+                <div>
+
+                    <div class="box-black-about">Peliculas de calidad</div>
+                    <p id="text-about">Cinecalidad es Películas en excelente calidad Full HD. 
+                        Audio latino e inglés online. 1 link, 1 click.
+                    </p>
+                    <p id="text-dominio">Dominios oficiales</p>
+                    <ul>
+                        <li class="li-dominio"><a href="#" class="list-dominio">Cinecalidad.is</li></a>
+                        <li class="li-dominio"><a href="#" class="list-dominio">Cine-Calidad.com</li></a>
+                        <li class="li-dominio"><a href="#" class="list-dominio">Cinecalidad.LAT</li></a>
+                    </ul>
+
+                </div>
+
+                <div class="miniArticulo">
+                    <div class="box-black-about">Peliculas destacadas</div>
+                    <ul class="lista-grid">
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/1.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/2.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/3.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/4.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/5.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/6.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/7.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/8.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/9.PNG" alt=""></a></li>
+                    </ul>
+                    <a href="#" class="box-more">Ver más</a>
+                </div>
+
+                <div class="miniArticulo">
+                    <div class="box-black-about">Series en Tendencia</div>
+                    <ul class="lista-grid">
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/1.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/2.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/3.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/4.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/5.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/6.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/7.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/8.PNG" alt=""></a></li>
+                        <li class="li-miniArticulo"><a href=""><img src="imagenes/mini articulo/9.PNG" alt=""></a></li>
+                    </ul>
+                    <a href="#" class="box-more">Ver más</a>
+                </div>
+                <div>
+                    <div class="box-black-about">Herramientas</div>
+                    <ul>
+                        <li class="li-dominio"><a href="#" class="list-dominio">Como descargar películas</li></a>
+                        <li class="li-dominio"><a href="#" class="list-dominio">Reproductores para tus películas</li></a>
+                        <li class="li-dominio"><a href="#" class="list-dominio">Gestores de descarga</li></a>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        
+        <div id="box-link-pages">
+            <a id="a-next" href="#">Siguiente</a>
+            <span class="span-id span-id-actual" href="#">1</span>
+            <a class="link-pages" href="#">2</a>
+            <a class="link-pages" href="#">3</a>
+            <a class="link-pages" href="#">4</a>
+            <span class="span-id" href="#">...</span>
+            <a class="link-pages" href="#">286</a>
+        </div>
+    </div> 
+
+    <hr>
+
+    <footer>
+        <h1 id="title-footer">Cinecalidad, ver o descargar películas full hd gratis en 1 LINK</h1>
+        <p id="p-footer">Descargar películas. Ver películas online. Cine en casa gratis. Películas online y para descargar en 1 link. Excelente calidad brrip (720p/1080p)</p>
+    </footer>
+    
+
+    
+</body>
+</html>
